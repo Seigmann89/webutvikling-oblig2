@@ -12,6 +12,10 @@ body {
   margin: 0;
 }
 
+svg circle {
+  text-align: center;
+}
+
 .jumbo {
   margin-bottom: 30px;
 }
@@ -267,5 +271,12 @@ tr:nth-child(even) {
   }
   article {
     margin: 0 10px;
+  }
+  .artikkelenkel {
+    max-width: 90%;
+  }
+
+  .artikkelenkel img {
+    width: 100%;
   }
 }
